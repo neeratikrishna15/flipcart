@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$connect = mysqli_connect("ngkmysqlserver.mysql.database.azure.com", "ngkrootuser@ngkmysqlserver", "Ind@9999", "flipcart");
+$connect = mysqli_connect("ngkphp.mysql.database.azure.com", "ngkphp@ngkmysqlserver", "ind@9999", "flipcart");
 
 if(isset($_POST["add_to_cart"]))
 {
